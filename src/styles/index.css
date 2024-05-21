@@ -21,5 +21,8 @@ body{
     flex-direction: row;
     padding: 1rem;
     gap: 1rem;
+    justify-content: center;
 }
+
+
 
