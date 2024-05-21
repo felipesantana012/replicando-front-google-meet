@@ -16,13 +16,22 @@ body{
 
 .container{
     width: 100%;
-    height: 100%;
+    height: 90%;
     display: flex;
     flex-direction: row;
     padding: 1rem;
     gap: 1rem;
     justify-content: center;
+    overflow: hidden;
 }
 
+
+.rodape{
+    height: 10%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 

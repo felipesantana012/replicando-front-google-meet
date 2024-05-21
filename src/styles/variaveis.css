@@ -2,6 +2,7 @@
 :root{
     --cor-cinza-escuro:rgb(34, 34, 34);
     --cor-cinza-claro:rgb(43, 46, 45);
+    --cor-cinza-mt-claro:rgb(230, 230, 230);
     --cor-branco:rgb(241, 241, 241);
     --cor-vermelho:rgb(214, 0, 0);
     --cor-azul:rgb(93, 93, 255);
@@ -9,3 +10,5 @@
 
     --fonte-principal: "Roboto", sans-serif;
 }
+
+

@@ -1,3 +1,100 @@
 .container__chat{
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    background-color: var(--cor-branco);
+    color: var(--cor-cinza-escuro);
+    border-radius: 7px;
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+ 
 }
+
+.chat__titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+
+.chat__titulo h2 ,i{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+.chat__card-informacao{
+    background-color: var(--cor-cinza-mt-claro);
+    border-radius: 7px;
+    padding: 1rem;
+    margin-top: 0.9rem;
+}
+
+
+.chat__card-informacao p{
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.chat__menssagens__input{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.chat__menssagens{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    padding-left: 1rem;
+}
+
+.chat__menssagens-item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.chat__menssagens-item p{
+    font-size: 0.8rem;
+}
+.chat__menssagens-item-nome-hora{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.chat__menssagens-item-nome-hora h3,p{
+    font-size: 0.9rem;
+}
+
+.chat__input {
+    display: flex;
+    background-color: var(--cor-cinza-mt-claro);
+    border-radius: 1.5rem;
+    align-items: center;
+}
+
+.chat__input input{
+    background-color: var(--cor-cinza-mt-claro);
+    border: transparent;
+    outline: 0;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1.5rem;
+   
+}
+.chat__input img{
+    width: 50px;
+    height: 50px;
+    opacity: 0.8;
+    padding: 12px;
+    cursor: pointer;
+}
+
+

@@ -1,6 +1,7 @@
 .container__transmissao{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 1rem;
     width: 70%;
 }
@@ -14,22 +15,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 1rem;
 }
 
 .icone__amarelo i{
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .transmissao__cards{
     display: flex;
     gap: 1rem;
+    height: 100%;
 }
 
 .transmissao__cards-principal{
     border: 2px solid var(--cor-azul);
     border-radius: 6px;
     width: 80%;
-    height: 500px;
     position: relative;
 }
 
