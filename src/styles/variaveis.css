@@ -1,0 +1,11 @@
+
+:root{
+    --cor-cinza-escuro:rgb(24, 24, 24);
+    --cor-cinza-claro:rgb(51, 51, 51);
+    --cor-branco:rgb(241, 241, 241);
+    --cor-vermelho:rgb(214, 0, 0);
+    --cor-azul:rgb(93, 93, 255);
+    --cor-amarelo:rgb(224, 196, 34);    
+
+    --fonte-principal: "Roboto", sans-serif;
+}
